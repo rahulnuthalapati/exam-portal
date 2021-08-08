@@ -1,0 +1,53 @@
+body {
+    background: #fafafa;
+    font-family:verdana;
+    text-align:center;
+}
+  
+.nav-col {
+    background-color: #428bca;
+    overflow: hidden;
+}
+
+.nav-set a{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float:left
+}
+
+.nav-col a:hover{ 
+  color: rgb(233, 233, 233);
+}
+
+.nav-act a.active {
+  color: rgb(233, 233, 233);
+}
+  
+input[type=submit]{
+    background-color: #428bca; 
+    border: none;
+    color: white;
+    text-align: center;
+    padding:10px
+}
+  
+input[type=submit]:hover {
+    background-color: #30618b;
+}
+
+input[type=text], select {
+  width: 15%;
+  padding: 9px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.element-margin{
+  display: inline-block;
+  margin-left: 5px;
+}
