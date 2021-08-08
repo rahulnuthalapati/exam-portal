@@ -1,0 +1,114 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>validateuser</servlet-name>
+		<servlet-class>MVC.Controller.UserValidate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>validateuser</servlet-name>
+		<url-pattern>/validate</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>validateadmin</servlet-name>
+		<servlet-class>MVC.Controller.AdminValidate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>validateadmin</servlet-name>
+		<url-pattern>/valadmin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>creatinguser</servlet-name>
+		<servlet-class>MVC.Controller.CreateUser</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>creatinguser</servlet-name>
+		<url-pattern>/createuser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>fillingform</servlet-name>
+		<servlet-class>MVC.Controller.ExamForm</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>fillingform</servlet-name>
+		<url-pattern>/fillform</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>cancelregistration</servlet-name>
+		<servlet-class>MVC.Controller.CancelForm</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>cancelregistration</servlet-name>
+		<url-pattern>/cancelform</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>disp</servlet-name>
+		<servlet-class>MVC.Controller.Disp</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>disp</servlet-name>
+		<url-pattern>/dispuser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>show</servlet-name>
+		<servlet-class>MVC.Controller.Show</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>show</servlet-name>
+		<url-pattern>/showusers</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>cardpay</servlet-name>
+		<servlet-class>MVC.Controller.Payment</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>cardpay</servlet-name>
+		<url-pattern>/payment</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>card</servlet-name>
+		<servlet-class>MVC.Controller.CheckCard</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>card</servlet-name>
+		<url-pattern>/valcard</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addinternals</servlet-name>
+		<servlet-class>MVC.Controller.Internals</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>addinternals</servlet-name>
+		<url-pattern>/internals</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>showhallticket</servlet-name>
+		<servlet-class>MVC.Controller.PrintHallticket</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>showhallticket</servlet-name>
+		<url-pattern>/showhalltkt</url-pattern>
+	</servlet-mapping>
+
+</web-app>
