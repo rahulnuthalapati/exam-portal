@@ -1,2 +1,2 @@
-# exam-registration-system
-Mini Project code for exam registration system done using JDBC concepts via Tomcat websever
+# Exam-Portal
+Mini Project code for Exam Portal done using JDBC concepts via Tomcat websever
