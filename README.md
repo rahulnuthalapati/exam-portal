@@ -1,2 +1,2 @@
-# Exam-Portal
-Mini Project code for Exam Portal done using JDBC concepts via Tomcat websever
+# Student-Teacher Portal
+Mini Project code for Student Teacher Portal done using JDBC concepts via Tomcat websever
